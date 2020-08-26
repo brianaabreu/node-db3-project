@@ -9,6 +9,9 @@
 
 ## Assignment
 
+SELECT table1.column1, table2.column2 FROM table1 INNER JOIN table2
+ON table1.column1 = table2.column1;
+
 For this lab you will
 
 -   write SQL statements against the `northwind.db3` database. Once you have the correct SQL Statement for each query, write it inside the _queries.sql_ file under the corresponding comment.
